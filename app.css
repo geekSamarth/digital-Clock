@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: cyan;
+}
+#myClockDisplay 
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: cyan;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 70px;
+    letter-spacing: 7px;
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid cyan;
+}
+#myClockDisplay:hover 
+{
+    box-shadow: 0px 0px .5px 2px orangered;
+    transition: box-shadow .5s ;
+    color: darkorange;
+    border-color: darkorange;
+}
